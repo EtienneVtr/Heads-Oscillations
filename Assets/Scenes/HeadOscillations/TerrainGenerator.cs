@@ -56,7 +56,7 @@ public class TerrainGenerator : MonoBehaviour
             for (int y = 0; y < height; y += (int)bumpSpacing) {
                 // Calculate the height using a sine function to create a half-cylinder shape
                 float heightValue = Mathf.Sin((float)x / width * Mathf.PI) * bumpHeight / terrainData.size.y;
-                heights[x, y] = heightValue;
+                heights[x, y] += heightValue;
             }
         }
 
@@ -68,13 +68,13 @@ public class TerrainGenerator : MonoBehaviour
         int width = terrainData.heightmapResolution;
         int height = terrainData.heightmapResolution;
 
-        float[,] heights = new float[width, height];
+        float[,] heights = terrainData.GetHeights(0, 0, width, height);
 
         for (int x = 0; x < width; x++) {
             for (int y = 0; y < height; y++) {
                 float xCoord = (float)x / width * noiseScale;
                 float yCoord = (float)y / height * noiseScale;
-                heights[x, y] = Mathf.PerlinNoise(xCoord, yCoord) * noiseHeightMultiplier / terrainData.size.y;
+                heights[x, y] += Mathf.PerlinNoise(xCoord, yCoord) * noiseHeightMultiplier / terrainData.size.y;
             }
         }
 
