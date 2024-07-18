@@ -1,0 +1,130 @@
+% v2-acmtog-sample.tex, dated March 7 2012
+% This is a sample file for ACM Transactions on Graphics
+%
+% Compilation using 'acmtog.cls' - version 1.2 (March 2012), Aptara Inc.
+% (c) 2010 Association for Computing Machinery (ACM)
+%
+% Questions/Suggestions/Feedback should be addressed to => "acmtexsupport@aptaracorp.com".
+% Users can also go through the FAQs available on the journal's submission webpage.
+%
+% Steps to compile: latex, bibtex, latex latex
+%
+% For tracking purposes => this is v1.2 - March 2012
+% you may choose between british, american and german as an language option
+% logo options are: hcilogo, uwblogo, no logo (no option means default logo)
+\documentclass[american]{acmtog} % V1.2
+
+\input{colors}
+\usepackage[unicode=true, breaklinks=true, colorlinks=true]{hyperref}
+\hypersetup{%
+citecolor=dkblue,
+urlcolor=dkorange,
+linkcolor=dkorange
+}
+%\hypersetup{%
+%	citecolor=black,
+%	urlcolor=black,
+%	linkcolor=black
+%}
+
+% Bibliography
+\bibliography{literature}
+
+\documentTitle{My Amazing Report} 
+\documentMonth{January}
+\documentYear{2018}
+
+\documentAuthor{First Author}
+% for multiple authors use this:
+%\documentAuthors{FIRST AUTHOR, SEC AUTHOR}{LAST AUTHOR}
+
+\projectType{HCI Project Report supervised by\\Super Visor}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\maketitle
+
+
+
+\begin{bottomstuff}
+email@server.com
+\end{bottomstuff}
+
+
+\begin{abstract}
+ABSTRACT Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\end{abstract}
+
+
+
+\section{First Section}
+\label{sec:first-sec}
+
+Support on how to write a scientific thesis and -report can be found here \url{https://www.hci.uni-wuerzburg.de/teaching/writing/}.
+The following lines showcase the use of citations and figures.
+The beginning of \autoref{sec:second-sec} showcases the use of tables and {\LaTeX}'s math environment.
+
+This is a statement followed by a single citation in parenthesis \parencite{fischbach:2012a}.
+This a statement followed by multiple citations \parencite{latoschik:2012a,latoschik:2011,fischbach:2011,Rehfeld:2010,wiebusch:2010,latoschik:2010}
+A citation integrated into a sentence is done differently, e.g., ``\textcite{wiebusch:2012a} present a method for improving the reusability of real-time interactive systems''.
+This is a reference to a figure: ``\autoref{fig:small-mouse} illustrates our current prototype.''
+
+\begin{figure}
+\centerline{\includegraphics[width=\columnwidth]{figures/tog-sample-mouse}}
+\caption{A mouse. No buttons, so presumably an early prototype.}
+    \label{fig:small-mouse}
+\end{figure}
+
+%\begin{figure*}
+%	\centerline{\includegraphics[width=\textwidth]{figures/tog-sample-mouse-overview}}
+%	\caption{This is a floating figure spanning over the two columns.}
+%	\label{fig:overview}
+%\end{figure*}
+
+eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus
+
+\section{Second Section}
+\label{sec:second-sec}
+
+A summary of definitions for the symbols utilized in this paper is listed in \autoref{tab:symbols}. eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id ornare arcu odio ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum
+
+\begin{table}
+\tbl{Summary of the  Main Mathematical and Physical Quantities Considered in the Development of the Proposed Models}{%
+\begin{tabular}{ccc}\hline
+	Symbol &{Description} &{Physical Unit} \\
+	\hline
+	$L_{b}$ & luminance & blondels (B) \\
+	$L_{fL}$ & luminance & foot-Lambert (fL) \\
+	$I_{l}$ & illuminance & lumens/$mm^2$  (lm/$mm^2$)\\
+	$R$ & light frequency & {Hertz (Hz)} \\
+	$D$ & pupil diameter & millimeters  ({\it mm}) \\
+	$A$ & pupil area & square millimeters  ($mm^2$) \\
+	$r_I$ & individual variability index & $r_I \in$ [0,1] \\
+	$t$ & current simulation time & milliseconds  ({\it ms}) \\
+	$\tau$ & pupil latency & milliseconds  ({\it ms}) \\
+	$x$ & muscular activity & none\\
+	$\beta, \alpha, \gamma, k$ & constants of proportionality & none \\\hline
+\end{tabular}}
+\label{tab:symbols}
+\end{table}
+
+\section{Third Section}
+\label{sec:third-sec}
+
+arcu odio ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus urna duis convallis convallis tellus id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl 
+
+%\appendix
+%
+%\section{Additional Info}
+%Put optional appendix here.
+
+\begin{acks}
+So long, and thanks for all the fish.
+\end{acks}
+
+
+\printbibliography
+
+\end{document}
+
