@@ -82,7 +82,7 @@
       <file>"VATRY - Report".bcf</file>
     </requires>
     <requires type="editable">
-      <file>literature.bib</file>
+      <file>VATRY_literature.bib</file>
     </requires>
   </external>
 </requests>

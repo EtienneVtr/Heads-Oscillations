@@ -162,13 +162,15 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.s
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
@@ -257,36 +259,38 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT .\figures\Planning.png
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy8.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy5.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\figures\tog-sample-mouse.pdf
-INPUT .\figures\tog-sample-mouse.pdf
-INPUT .\figures\tog-sample-mouse.pdf
-INPUT .\figures\tog-sample-mouse.pdf
-INPUT .\figures\tog-sample-mouse.pdf
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy8.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\etien\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -299,18 +303,24 @@ INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.v
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT .\VATRY - Report.lof
+INPUT .\VATRY - Report.lof
+INPUT VATRY - Report.lof
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
+INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+OUTPUT VATRY - Report.lof
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT VATRY - Report.aux
@@ -318,14 +328,6 @@ INPUT .\VATRY - Report.out
 INPUT .\VATRY - Report.out
 INPUT VATRY - Report.run.xml
 OUTPUT VATRY - Report.run.xml
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\etien\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb

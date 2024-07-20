@@ -19,163 +19,62 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{fischbach:2012a}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=302c54437d05dc6fd7dc3c3f95f77f2b}{%
-           family={Fischbach},
-           familyi={F\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=215c993b88f054754172f6fbb2815e7d}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86c4e81b77b11b84de22b396bc818f7c}{%
-           family={Bruder},
-           familyi={B\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd39f7509bac17572d744c487c9cc1a0}{%
-           family={Steinicke},
-           familyi={S\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{5a46c8098482347ad89c18b0f52eab20}
-      \strng{fullhash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{fullhashraw}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{bibnamehash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authorbibnamehash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authornamehash}{5a46c8098482347ad89c18b0f52eab20}
-      \strng{authorfullhash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authorfullhashraw}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \field{extraname}{1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Virtual Reality International Conference VRIC}
-      \field{title}{sm{ART}box: {O}ut-of-the-{B}ox {T}echnologies for {I}nteractive {A}rt and {E}xhibition}
-      \field{year}{2012}
-    \endentry
-    \entry{fischbach:2011}{inbook}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=8eb189754266b5a58edc79e519a7a1a0}{%
-           family={Fischbach},
-           familyi={F\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
-           familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fbabd5dc142fe19813aa183530622d0}{%
-           family={Giebler-Schubert},
-           familyi={G\bibinithyphendelim S\bibinitperiod},
-           given={Anke},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fb640a3f5944bfd7ecb00d55157077ef}{%
-           family={Rehfeld},
-           familyi={R\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{94edbaa30b6fab38b1160cf5f3557f27}
-      \strng{fullhash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{fullhashraw}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{bibnamehash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authorbibnamehash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authornamehash}{94edbaa30b6fab38b1160cf5f3557f27}
-      \strng{authorfullhash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authorfullhashraw}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \field{extraname}{2}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{VR}
-      \field{title}{SiXton's curse - Simulator X demonstration}
-      \field{year}{2011}
-      \field{pages}{255\bibrangedash 256}
-      \range{pages}{2}
-    \endentry
-    \entry{latoschik:2010}{inbook}{}{}
+    \entry{audio_in_vr}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=4f6026df22354c41da5c6db070ed416a}{%
-           family={Kuhlen},
+        {{un=0,uniquepart=base,hash=a591ed5a0b42297a713d6600438eeb19}{%
+           family={KERN},
            familyi={K\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8076a5520974c281dcc0397143b26d59}{%
-           family={Coquillart},
-           familyi={C\bibinitperiod},
-           given={Sabine},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d0b22098f193cdcfcd300747b7db16db}{%
-           family={Interrante},
-           familyi={I\bibinitperiod},
-           given={Victoria},
-           giveni={V\bibinitperiod}}}%
+           given={Angelika\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ace4e954cdedb22e06f4f2a96b35d71e}{%
+           family={ELLERMEIER},
+           familyi={E\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{bibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorbibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authornamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{editorbibnamehash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editornamehash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editorfullhash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editorfullhashraw}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \field{extraname}{1}
+      \strng{namehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{fullhash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{fullhashraw}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{bibnamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorbibnamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authornamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorfullhash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorfullhashraw}{adce7e7d34c569059b46fb970f1cb812}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{frontiers in Robotics and AI}
+      \field{number}{20}
+      \field{title}{Audio in VR: Effects of a Soundscape and Movement-Triggered Step Sounds on Presence}
+      \field{volume}{7}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3389/frobt.2020.00020
+      \endverb
+    \endentry
+    \entry{course}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=537e50da1819b12b2cc3d6ec1e50aa34}{%
+           family={LUGRIN},
+           familyi={L\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{fullhash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{fullhashraw}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{bibnamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorbibnamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authornamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorfullhash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorfullhashraw}{537e50da1819b12b2cc3d6ec1e50aa34}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -183,216 +82,198 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper reviews coupling and cohesion as software quality criteria for the development of Realtime Interactive Systems (RIS). The applicability of these criteria to evaluate RIS architecture mechanisms is examined while the utilization of existing software metrics is discussed. Three commonly found mechanisms, scene graphs, event systems and entity models, are evaluated with respect to a minimization of coupling and a maximization of cohesion. The paper motivates an analytical approach to the evaluation of software techniques as well as a strengthening of software technology aspects in the field of interactive simulations in general given current challenges of diversification, parallelization, and interconnection.}
-      \field{booktitle}{{Proceedings of the Joint Virtual Reality Conference of Euro VR -- EGVE -- VEC}}
-      \field{series}{{EG} Symposium Proceedings}
-      \field{title}{{E}ngineering {R}ealtime {I}nteractive {S}ystems: {C}oupling \& {C}ohesion of {A}rchitecture {M}echanisms}
-      \field{year}{2010}
-      \field{pages}{25\bibrangedash 28}
-      \range{pages}{4}
+      \field{howpublished}{University of Würzburg}
+      \field{note}{Course notes}
+      \field{title}{Navigation}
+      \field{year}{2024}
     \endentry
-    \entry{latoschik:2011}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+    \entry{walking_vibe}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5660f7b67033df11c6a5cc3d7f358de2}{%
+           family={PENG},
+           familyi={P\bibinitperiod},
+           given={Yi-Hao},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{bibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorbibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authornamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE VR 2011}
-      \field{title}{{Simulator X: A Scalable and Concurrent Software Platform for Intelligent Realtime Interactive Systems}}
-      \field{year}{2011}
-    \endentry
-    \entry{latoschik:2012a}{misc}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b3462cefe1c5b2c7537ae21555c665a}{%
-           family={Feiner},
-           familyi={F\bibinitperiod},
-           given={Steven},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b31d42dd4ba4466eb4b996d6e714dc68}{%
-           family={Schmalstieg},
-           familyi={S\bibinitperiod},
-           given={Dieter},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f5619c1444551aebc78404683f62f2f7}{%
-           family={Cruz-Neira},
-           familyi={C\bibinithyphendelim N\bibinitperiod},
-           given={Carolina},
+        {{un=0,uniquepart=base,hash=d33722f70bf1869c4a961f4788678190}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Carolyn},
            giveni={C\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=254eaf1c74797c5423da16a9231c79aa}{%
+           family={LIU},
+           familyi={L\bibinitperiod},
+           given={Shi-Hong},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ad23ba059dc85b32f8f6d74aba578f6}{%
+           family={WANG},
+           familyi={W\bibinitperiod},
+           given={Chung-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb26242b15e14dcb10d24e32ee92fb17}{%
+           family={TAELE},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7de48dcba33df63dc92941c73d351b4}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Neng-Hao},
+           giveni={N\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4d90b445b8ab87f9b074cc5e9be252}{%
+           family={CHEN},
+           familyi={C\bibinitperiod},
+           given={Mike\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{c9a44a5193eef62ba313337522608cd8}
-      \strng{fullhash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{fullhashraw}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{bibnamehash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authorbibnamehash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authornamehash}{c9a44a5193eef62ba313337522608cd8}
-      \strng{authorfullhash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authorfullhashraw}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{a03d767682cc9103e62486f221442313}
+      \strng{fullhash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{fullhashraw}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{bibnamehash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authorbibnamehash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authornamehash}{a03d767682cc9103e62486f221442313}
+      \strng{authorfullhash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authorfullhashraw}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{IEEE VR 2012 panel}
-      \field{title}{Systems Engineering Science: Obsolete or Essential?}
-      \field{year}{2012}
+      \field{journaltitle}{Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
+      \field{title}{WalkingVibe: Reducing Virtual Reality Sickness and Improving Realism while Walking in VR using Unobtrusive Head-mounted Vibrotactile Feedback}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3313831.3376847
+      \endverb
     \endentry
-    \entry{Rehfeld:2010}{article}{}{}
+    \entry{bumpy_ride}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=fb640a3f5944bfd7ecb00d55157077ef}{%
-           family={Rehfeld},
-           familyi={R\bibinitperiod},
-           given={Stephan},
+        {{un=0,uniquepart=base,hash=7367aa1ae0d5db3ba3253f3155cbb44e}{%
+           family={QUARLES},
+           familyi={Q\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a73a7f39c257ea763292d2e06b45afc}{%
+           family={ANG},
+           familyi={A\bibinitperiod},
+           given={Samuel},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{fullhash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{fullhashraw}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{bibnamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorbibnamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authornamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorfullhash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorfullhashraw}{4e7f0623c609c28bc61988a90950b5dc}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{fullhash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{fullhashraw}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{bibnamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorbibnamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authornamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorfullhash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorfullhashraw}{b517852351c523c7938a9cbdae1f3bf0}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper compares two parallelization methods for data flow networks. A strict decoupling between the networks' structural components and their evaluation is achieved using a pattern oriented architecture with generalized traverser objects. This architecture provides a clean basis for the implementation of parallel execution code using a) an explicit parallelization based on pthreads and b) an implicit parallelization using OpenMP. Both methods are then evaluated and compared to each other for different traversal heuristics.}
-      \field{journaltitle}{Software Engineering and Architectures for Realtime Interactive Systems (SEARIS), proceedings of the IEEE Virtual Reality 2010 workshop}
-      \field{title}{A Comparison of Parallelization Methods for Data Flow Networks}
-      \field{year}{2010}
+      \field{journaltitle}{IEEE Conference on Virtual Reality and 3D User Interfaces (VR)}
+      \field{title}{You’re in for a Bumpy Ride! Uneven Terrain Increases Cybersickness While Navigating with Head Mounted Displays}
+      \field{year}{2022}
+      \field{pages}{428\bibrangedash 435}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/VR51125.2022.00062
+      \endverb
     \endentry
-    \entry{wiebusch:2012a}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
-           familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
+    \entry{trigger_walking}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=29890e9158dbeb78adf93be7ddbb0604}{%
+           family={SARUPURI},
+           familyi={S\bibinitperiod},
+           given={Bhuvaneswari},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
+        {{un=0,uniquepart=base,hash=571e1a2be0bb05d7debf03017e4b0b29}{%
+           family={STEINICKE},
+           familyi={S\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39393c7ed2bdfeba716e51d00969ad86}{%
+           family={HOERMANN},
+           familyi={H\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46449a8c12e6c06dbca09c80c08914ba}{%
+           family={LINDEMAN},
            familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{fullhash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{fullhashraw}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{bibnamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorbibnamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authornamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorfullhash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorfullhashraw}{324ad07e8c6159fef1da6f631146a92f}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{95728f5a3409944415c3a21fb32f2fdb}
+      \strng{fullhash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{fullhashraw}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{bibnamehash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authorbibnamehash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authornamehash}{95728f5a3409944415c3a21fb32f2fdb}
+      \strng{authorfullhash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authorfullhashraw}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We introduce a technique to support decoupling in component-based, modular software architectures as a means to enhance non-functional requirements, i.e., to increase reusability, portability, and adaptability. The core idea utilizes a semantic description of interfaces and component interplay in the area of Intelligent Real-time Interactive Systems IRIS. Semantic descriptions are encoded as OWL-based models, which build a Knowledge Representation Layer KRL of relevant interface constructs and component features. These models are automatically transformed into programming language code of a given target language. The result of that transformation forms a semantically grounded database of relevant system aspects that programmers can use to develop their application. Examples, taken from an application that was developed with the Simulator X framework, illustrate the different aspects of the proposed method and demonstrate its practicability.}
-      \field{journaltitle}{Software Engineering and Architectures for Realtime Interactive Systems SEARIS, proceedings of the IEEE Virtual Reality 2012 workshop}
-      \field{title}{Enhanced Decoupling of Components in Intelligent Realtime Interactive Systems using Ontologies}
-      \field{year}{2012}
+      \field{journaltitle}{Proceedings of SUI}
+      \field{title}{TriggerWalking: A Biomechanically-Inspired Locomotion User Interface for Efficient Realistic Virtual Walking}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{pages}{138\bibrangedash 147}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3131277.3132177
+      \endverb
     \endentry
-    \entry{wiebusch:2010}{inbook}{}{}
+    \entry{translational_motion}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
+        {{un=0,uniquepart=base,hash=fd3837789bea943aeab9ca591eef97a5}{%
+           family={WATERS},
            familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+        {{un=0,uniquepart=base,hash=ebd31f701725a503c9a9da20b270bc3d}{%
+           family={MORRIS},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
+        {{un=0,uniquepart=base,hash=54c37ce5d58b13b6dd63a707dd1c1d5a}{%
+           family={PERRYS},
+           familyi={P\bibinitperiod},
+           given={Jacquelin},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=761f5c6905acccd6759036febde7d251}{%
-           family={Blach},
-           familyi={B\bibinitperiod},
-           given={Roland},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3431102188961e6717dace849fd34c21}{%
-           family={Bohn},
-           familyi={B\bibinitperiod},
-           given={Christian-A.},
-           giveni={C\bibinithyphendelim A\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Gesellschaft für Informatik}%
-      }
-      \list{publisher}{1}{%
-        {Shaker Verlag}%
-      }
-      \strng{namehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{fullhash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{fullhashraw}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{bibnamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorbibnamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authornamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorfullhash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorfullhashraw}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{editorbibnamehash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editornamehash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editorfullhash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editorfullhashraw}{5f456671f4afbb4ef6cb90574516b2c7}
+      \strng{namehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{fullhash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{fullhashraw}{b03e82816754af88dad7e14e329f71c8}
+      \strng{bibnamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorbibnamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authornamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorfullhash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorfullhashraw}{b03e82816754af88dad7e14e329f71c8}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -400,389 +281,270 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Dieser Artikel beschreibt eine konfigurierbare Schnittstelle -- ein so genanntes World-Interface -- für die Kopplung von KI-Verfahren in eine Middlewareplattform für interaktive Echtzeitsysteme der VR, AR und MR. Relevante Ereignisse, deren semantische Repräsentation sowie die entsprechenden Reaktionen auf die Ereignisse lassen sich zur Laufzeit definieren und für die jeweiligen Anforderungen konfigurieren. Dadurch wird das System auf verschiedene Anwendungskontexte und konkrete Middlewarefunktionalitäten anpassbar. Der Ansatz wird am Beispiel der Kopplung eines Regel-basierten Produktionssystems zur Entwicklung einer Anwendungslogik für ein kleines Computerspiel demonstriert.}
-      \field{booktitle}{Virtuelle und {E}rweiterte {R}ealität, 7. Workshop of the {GI} special interest group {VR/AR}}
-      \field{title}{Ein {K}onfigurierbares {W}orld-{I}nterface zur {K}opplung von {KI}-{M}ethoden an {I}nteraktive {E}chtzeitsysteme}
-      \field{year}{2010}
-      \field{pages}{47\bibrangedash 58}
-      \range{pages}{12}
+      \field{journaltitle}{J. Biomechanics}
+      \field{title}{TRANSLATIONAL MOTION OF THE HEAD AND TRUNK DURING NORMAL WALKING}
+      \field{volume}{6}
+      \field{year}{1973}
+      \field{pages}{167\bibrangedash 172}
+      \range{pages}{6}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
-    \entry{fischbach:2012a}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=302c54437d05dc6fd7dc3c3f95f77f2b}{%
-           family={Fischbach},
-           familyi={F\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+    \entry{audio_in_vr}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a591ed5a0b42297a713d6600438eeb19}{%
+           family={KERN},
+           familyi={K\bibinitperiod},
+           given={Angelika\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=215c993b88f054754172f6fbb2815e7d}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86c4e81b77b11b84de22b396bc818f7c}{%
-           family={Bruder},
-           familyi={B\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd39f7509bac17572d744c487c9cc1a0}{%
-           family={Steinicke},
-           familyi={S\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=ace4e954cdedb22e06f4f2a96b35d71e}{%
+           family={ELLERMEIER},
+           familyi={E\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{5a46c8098482347ad89c18b0f52eab20}
-      \strng{fullhash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{fullhashraw}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{bibnamehash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authorbibnamehash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authornamehash}{5a46c8098482347ad89c18b0f52eab20}
-      \strng{authorfullhash}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \strng{authorfullhashraw}{cc31ca924d181d6abf3c5ecbde05feb2}
-      \field{extraname}{1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{fullhash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{fullhashraw}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{bibnamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorbibnamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authornamehash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorfullhash}{adce7e7d34c569059b46fb970f1cb812}
+      \strng{authorfullhashraw}{adce7e7d34c569059b46fb970f1cb812}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Virtual Reality International Conference VRIC}
-      \field{title}{sm{ART}box: {O}ut-of-the-{B}ox {T}echnologies for {I}nteractive {A}rt and {E}xhibition}
-      \field{year}{2012}
+      \field{journaltitle}{frontiers in Robotics and AI}
+      \field{number}{20}
+      \field{title}{Audio in VR: Effects of a Soundscape and Movement-Triggered Step Sounds on Presence}
+      \field{volume}{7}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3389/frobt.2020.00020
+      \endverb
     \endentry
-    \entry{fischbach:2011}{inbook}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=8eb189754266b5a58edc79e519a7a1a0}{%
-           family={Fischbach},
-           familyi={F\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
-           familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fbabd5dc142fe19813aa183530622d0}{%
-           family={Giebler-Schubert},
-           familyi={G\bibinithyphendelim S\bibinitperiod},
-           given={Anke},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
+    \entry{course}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=537e50da1819b12b2cc3d6ec1e50aa34}{%
+           family={LUGRIN},
            familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fb640a3f5944bfd7ecb00d55157077ef}{%
-           family={Rehfeld},
-           familyi={R\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{94edbaa30b6fab38b1160cf5f3557f27}
-      \strng{fullhash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{fullhashraw}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{bibnamehash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authorbibnamehash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authornamehash}{94edbaa30b6fab38b1160cf5f3557f27}
-      \strng{authorfullhash}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \strng{authorfullhashraw}{9a2249bcc51da693e332bc80d2f2bd9a}
-      \field{extraname}{2}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{fullhash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{fullhashraw}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{bibnamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorbibnamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authornamehash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorfullhash}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \strng{authorfullhashraw}{537e50da1819b12b2cc3d6ec1e50aa34}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{VR}
-      \field{title}{SiXton's curse - Simulator X demonstration}
-      \field{year}{2011}
-      \field{pages}{255\bibrangedash 256}
-      \range{pages}{2}
+      \field{howpublished}{University of Würzburg}
+      \field{note}{Course notes}
+      \field{title}{Navigation}
+      \field{year}{2024}
     \endentry
-    \entry{latoschik:2012a}{misc}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+    \entry{walking_vibe}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5660f7b67033df11c6a5cc3d7f358de2}{%
+           family={PENG},
+           familyi={P\bibinitperiod},
+           given={Yi-Hao},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b3462cefe1c5b2c7537ae21555c665a}{%
-           family={Feiner},
-           familyi={F\bibinitperiod},
-           given={Steven},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b31d42dd4ba4466eb4b996d6e714dc68}{%
-           family={Schmalstieg},
-           familyi={S\bibinitperiod},
-           given={Dieter},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f5619c1444551aebc78404683f62f2f7}{%
-           family={Cruz-Neira},
-           familyi={C\bibinithyphendelim N\bibinitperiod},
-           given={Carolina},
+        {{un=0,uniquepart=base,hash=d33722f70bf1869c4a961f4788678190}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Carolyn},
            giveni={C\bibinitperiod},
            givenun=0}}%
-      }
-      \strng{namehash}{c9a44a5193eef62ba313337522608cd8}
-      \strng{fullhash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{fullhashraw}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{bibnamehash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authorbibnamehash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authornamehash}{c9a44a5193eef62ba313337522608cd8}
-      \strng{authorfullhash}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \strng{authorfullhashraw}{a1257ac3592aaff3f3b2191c377fe1d1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{IEEE VR 2012 panel}
-      \field{title}{Systems Engineering Science: Obsolete or Essential?}
-      \field{year}{2012}
-    \endentry
-    \entry{latoschik:2010}{inbook}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
+        {{un=0,uniquepart=base,hash=254eaf1c74797c5423da16a9231c79aa}{%
+           family={LIU},
            familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Shi-Hong},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
+        {{un=0,uniquepart=base,hash=2ad23ba059dc85b32f8f6d74aba578f6}{%
+           family={WANG},
+           familyi={W\bibinitperiod},
+           given={Chung-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb26242b15e14dcb10d24e32ee92fb17}{%
+           family={TAELE},
            familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
            givenun=0}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=4f6026df22354c41da5c6db070ed416a}{%
-           family={Kuhlen},
-           familyi={K\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8076a5520974c281dcc0397143b26d59}{%
-           family={Coquillart},
+        {{un=0,uniquepart=base,hash=e7de48dcba33df63dc92941c73d351b4}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Neng-Hao},
+           giveni={N\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4d90b445b8ab87f9b074cc5e9be252}{%
+           family={CHEN},
            familyi={C\bibinitperiod},
-           given={Sabine},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d0b22098f193cdcfcd300747b7db16db}{%
-           family={Interrante},
-           familyi={I\bibinitperiod},
-           given={Victoria},
-           giveni={V\bibinitperiod}}}%
+           given={Mike\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{bibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorbibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authornamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{editorbibnamehash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editornamehash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editorfullhash}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \strng{editorfullhashraw}{f7a0ac046fcfeeb01ddfe599a4c96ecb}
-      \field{extraname}{1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{a03d767682cc9103e62486f221442313}
+      \strng{fullhash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{fullhashraw}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{bibnamehash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authorbibnamehash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authornamehash}{a03d767682cc9103e62486f221442313}
+      \strng{authorfullhash}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \strng{authorfullhashraw}{6c6fcce51d6ca5edfa8630ed11f51e57}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper reviews coupling and cohesion as software quality criteria for the development of Realtime Interactive Systems (RIS). The applicability of these criteria to evaluate RIS architecture mechanisms is examined while the utilization of existing software metrics is discussed. Three commonly found mechanisms, scene graphs, event systems and entity models, are evaluated with respect to a minimization of coupling and a maximization of cohesion. The paper motivates an analytical approach to the evaluation of software techniques as well as a strengthening of software technology aspects in the field of interactive simulations in general given current challenges of diversification, parallelization, and interconnection.}
-      \field{booktitle}{{Proceedings of the Joint Virtual Reality Conference of Euro VR -- EGVE -- VEC}}
-      \field{series}{{EG} Symposium Proceedings}
-      \field{title}{{E}ngineering {R}ealtime {I}nteractive {S}ystems: {C}oupling \& {C}ohesion of {A}rchitecture {M}echanisms}
-      \field{year}{2010}
-      \field{pages}{25\bibrangedash 28}
-      \range{pages}{4}
+      \field{journaltitle}{Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
+      \field{title}{WalkingVibe: Reducing Virtual Reality Sickness and Improving Realism while Walking in VR using Unobtrusive Head-mounted Vibrotactile Feedback}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3313831.3376847
+      \endverb
     \endentry
-    \entry{latoschik:2011}{article}{}{}
+    \entry{bumpy_ride}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+        {{un=0,uniquepart=base,hash=7367aa1ae0d5db3ba3253f3155cbb44e}{%
+           family={QUARLES},
+           familyi={Q\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{fullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \strng{bibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorbibnamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authornamehash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhash}{30d24801e59b46aa3095b6c605769362}
-      \strng{authorfullhashraw}{30d24801e59b46aa3095b6c605769362}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE VR 2011}
-      \field{title}{{Simulator X: A Scalable and Concurrent Software Platform for Intelligent Realtime Interactive Systems}}
-      \field{year}{2011}
-    \endentry
-    \entry{Rehfeld:2010}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=fb640a3f5944bfd7ecb00d55157077ef}{%
-           family={Rehfeld},
-           familyi={R\bibinitperiod},
-           given={Stephan},
+        {{un=0,uniquepart=base,hash=3a73a7f39c257ea763292d2e06b45afc}{%
+           family={ANG},
+           familyi={A\bibinitperiod},
+           given={Samuel},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{fullhash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{fullhashraw}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{bibnamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorbibnamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authornamehash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorfullhash}{4e7f0623c609c28bc61988a90950b5dc}
-      \strng{authorfullhashraw}{4e7f0623c609c28bc61988a90950b5dc}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{fullhash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{fullhashraw}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{bibnamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorbibnamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authornamehash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorfullhash}{b517852351c523c7938a9cbdae1f3bf0}
+      \strng{authorfullhashraw}{b517852351c523c7938a9cbdae1f3bf0}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper compares two parallelization methods for data flow networks. A strict decoupling between the networks' structural components and their evaluation is achieved using a pattern oriented architecture with generalized traverser objects. This architecture provides a clean basis for the implementation of parallel execution code using a) an explicit parallelization based on pthreads and b) an implicit parallelization using OpenMP. Both methods are then evaluated and compared to each other for different traversal heuristics.}
-      \field{journaltitle}{Software Engineering and Architectures for Realtime Interactive Systems (SEARIS), proceedings of the IEEE Virtual Reality 2010 workshop}
-      \field{title}{A Comparison of Parallelization Methods for Data Flow Networks}
-      \field{year}{2010}
+      \field{journaltitle}{IEEE Conference on Virtual Reality and 3D User Interfaces (VR)}
+      \field{title}{You’re in for a Bumpy Ride! Uneven Terrain Increases Cybersickness While Navigating with Head Mounted Displays}
+      \field{year}{2022}
+      \field{pages}{428\bibrangedash 435}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/VR51125.2022.00062
+      \endverb
     \endentry
-    \entry{wiebusch:2012a}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
-           familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
+    \entry{trigger_walking}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=29890e9158dbeb78adf93be7ddbb0604}{%
+           family={SARUPURI},
+           familyi={S\bibinitperiod},
+           given={Bhuvaneswari},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
+        {{un=0,uniquepart=base,hash=571e1a2be0bb05d7debf03017e4b0b29}{%
+           family={STEINICKE},
+           familyi={S\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39393c7ed2bdfeba716e51d00969ad86}{%
+           family={HOERMANN},
+           familyi={H\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46449a8c12e6c06dbca09c80c08914ba}{%
+           family={LINDEMAN},
            familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{fullhash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{fullhashraw}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{bibnamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorbibnamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authornamehash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorfullhash}{324ad07e8c6159fef1da6f631146a92f}
-      \strng{authorfullhashraw}{324ad07e8c6159fef1da6f631146a92f}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{95728f5a3409944415c3a21fb32f2fdb}
+      \strng{fullhash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{fullhashraw}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{bibnamehash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authorbibnamehash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authornamehash}{95728f5a3409944415c3a21fb32f2fdb}
+      \strng{authorfullhash}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \strng{authorfullhashraw}{a9c68fc9ad88668434fd64f2b04bb3bc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We introduce a technique to support decoupling in component-based, modular software architectures as a means to enhance non-functional requirements, i.e., to increase reusability, portability, and adaptability. The core idea utilizes a semantic description of interfaces and component interplay in the area of Intelligent Real-time Interactive Systems IRIS. Semantic descriptions are encoded as OWL-based models, which build a Knowledge Representation Layer KRL of relevant interface constructs and component features. These models are automatically transformed into programming language code of a given target language. The result of that transformation forms a semantically grounded database of relevant system aspects that programmers can use to develop their application. Examples, taken from an application that was developed with the Simulator X framework, illustrate the different aspects of the proposed method and demonstrate its practicability.}
-      \field{journaltitle}{Software Engineering and Architectures for Realtime Interactive Systems SEARIS, proceedings of the IEEE Virtual Reality 2012 workshop}
-      \field{title}{Enhanced Decoupling of Components in Intelligent Realtime Interactive Systems using Ontologies}
-      \field{year}{2012}
+      \field{journaltitle}{Proceedings of SUI}
+      \field{title}{TriggerWalking: A Biomechanically-Inspired Locomotion User Interface for Efficient Realistic Virtual Walking}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{pages}{138\bibrangedash 147}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3131277.3132177
+      \endverb
     \endentry
-    \entry{wiebusch:2010}{inbook}{}{}
+    \entry{translational_motion}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=941650dedc34de49740ca37485f61da4}{%
-           family={Wiebusch},
+        {{un=0,uniquepart=base,hash=fd3837789bea943aeab9ca591eef97a5}{%
+           family={WATERS},
            familyi={W\bibinitperiod},
-           given={Dennis},
-           giveni={D\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67839069c8f84e0171c34705e74a13bd}{%
-           family={Latoschik},
-           familyi={L\bibinitperiod},
-           given={Marc\bibnamedelima Erich},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+        {{un=0,uniquepart=base,hash=ebd31f701725a503c9a9da20b270bc3d}{%
+           family={MORRIS},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b0f0f2e823c4a46eb8b17763d112f71d}{%
-           family={Tramberend},
-           familyi={T\bibinitperiod},
-           given={Henrik},
-           giveni={H\bibinitperiod},
+        {{un=0,uniquepart=base,hash=54c37ce5d58b13b6dd63a707dd1c1d5a}{%
+           family={PERRYS},
+           familyi={P\bibinitperiod},
+           given={Jacquelin},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=761f5c6905acccd6759036febde7d251}{%
-           family={Blach},
-           familyi={B\bibinitperiod},
-           given={Roland},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3431102188961e6717dace849fd34c21}{%
-           family={Bohn},
-           familyi={B\bibinitperiod},
-           given={Christian-A.},
-           giveni={C\bibinithyphendelim A\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Gesellschaft für Informatik}%
-      }
-      \list{publisher}{1}{%
-        {Shaker Verlag}%
-      }
-      \strng{namehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{fullhash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{fullhashraw}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{bibnamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorbibnamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authornamehash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorfullhash}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{authorfullhashraw}{62e221c8febd6e987cdf02a65a60153e}
-      \strng{editorbibnamehash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editornamehash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editorfullhash}{5f456671f4afbb4ef6cb90574516b2c7}
-      \strng{editorfullhashraw}{5f456671f4afbb4ef6cb90574516b2c7}
+      \strng{namehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{fullhash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{fullhashraw}{b03e82816754af88dad7e14e329f71c8}
+      \strng{bibnamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorbibnamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authornamehash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorfullhash}{b03e82816754af88dad7e14e329f71c8}
+      \strng{authorfullhashraw}{b03e82816754af88dad7e14e329f71c8}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -790,12 +552,12 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Dieser Artikel beschreibt eine konfigurierbare Schnittstelle -- ein so genanntes World-Interface -- für die Kopplung von KI-Verfahren in eine Middlewareplattform für interaktive Echtzeitsysteme der VR, AR und MR. Relevante Ereignisse, deren semantische Repräsentation sowie die entsprechenden Reaktionen auf die Ereignisse lassen sich zur Laufzeit definieren und für die jeweiligen Anforderungen konfigurieren. Dadurch wird das System auf verschiedene Anwendungskontexte und konkrete Middlewarefunktionalitäten anpassbar. Der Ansatz wird am Beispiel der Kopplung eines Regel-basierten Produktionssystems zur Entwicklung einer Anwendungslogik für ein kleines Computerspiel demonstriert.}
-      \field{booktitle}{Virtuelle und {E}rweiterte {R}ealität, 7. Workshop of the {GI} special interest group {VR/AR}}
-      \field{title}{Ein {K}onfigurierbares {W}orld-{I}nterface zur {K}opplung von {KI}-{M}ethoden an {I}nteraktive {E}chtzeitsysteme}
-      \field{year}{2010}
-      \field{pages}{47\bibrangedash 58}
-      \range{pages}{12}
+      \field{journaltitle}{J. Biomechanics}
+      \field{title}{TRANSLATIONAL MOTION OF THE HEAD AND TRUNK DURING NORMAL WALKING}
+      \field{volume}{6}
+      \field{year}{1973}
+      \field{pages}{167\bibrangedash 172}
+      \range{pages}{6}
     \endentry
   \enddatalist
 \endrefsection
