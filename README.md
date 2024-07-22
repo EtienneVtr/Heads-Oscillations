@@ -39,7 +39,7 @@ The controls for the simulation are as follows:
 - **Activate/deactivate oscillations**: Right grip button
 - **Activate/deactivate footstep sound during oscillations**: Left grip button (note: footstep sound can only be heard when oscillations are activated)
 
-![Quest Touch Controllers](vatry-hci-project/Report/figures/quest_controls.png)
+![Quest Touch Controllers](main/vatry-hci-project/Report/figures/quest_controls.png)
 
 ## Conclusion
 
