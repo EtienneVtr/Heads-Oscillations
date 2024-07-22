@@ -135,8 +135,15 @@ public class PlayerController : MonoBehaviour
 
     void SetAnimatorBools(bool isWalking, bool isRunning)
     {
-        headAnimator.SetBool("isWalking", isWalking);
-        headAnimator.SetBool("isRunning", isRunning);
+        if (oscillations)
+        {
+            headAnimator.SetBool("isWalking", isWalking);
+            headAnimator.SetBool("isRunning", isRunning);
+        } else
+        {
+            headAnimator.SetBool("isWalking", false);
+            headAnimator.SetBool("isRunning", false);
+        }
     }
 
     bool CheckControllerButton(InputDeviceRole role, InputFeatureUsage<bool> button)
