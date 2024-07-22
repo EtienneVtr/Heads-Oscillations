@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class TestManager : MonoBehaviour {
+public class TestManager : MonoBehaviour
+{
     [Header("References")]
     public PlayerController playerController;
+    public Camera mainCamera;
     public Transform canvasTransform;
     public Slider slider;
 
@@ -14,12 +16,15 @@ public class TestManager : MonoBehaviour {
     private bool isTestActive = false;
     private float startTime;
     private bool fmsTestDone = false;
-    private float fmsTestFrequency = 30.0f;
+    public float fmsTestFrequency;
     private int fmsCount = 0;
     private string path;
+    public float distanceFromCamera;
+    public float fixedHeightFromGround; // Hauteur fixe à laquelle le canvas doit être placé
 
     // Start est appelé avant le premier frame update
-    void Start() {
+    void Start()
+    {
         canvasTransform.gameObject.SetActive(false);
         startTime = Time.time;
 
@@ -28,51 +33,64 @@ public class TestManager : MonoBehaviour {
     }
 
     // Update est appelé une fois par frame
-    void Update() {
+    void Update()
+    {
         fmsTest();
 
-        if (isTestActive) {
+        if (isTestActive)
+        {
             HandleSliderControl();
 
-            if (Input.GetKeyDown(KeyCode.Return)) {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
                 EndTest();
             }
         }
     }
 
-    void fmsTest() {
-        if (Math.Abs((Time.time - startTime) % fmsTestFrequency) <= 0.01f && !fmsTestDone && Time.time > fmsTestFrequency / 2.0f) {
+    void fmsTest()
+    {
+        if (Math.Abs((Time.time - startTime) % fmsTestFrequency) <= 0.01f && !fmsTestDone && Time.time > fmsTestFrequency / 2.0f)
+        {
             Debug.Log("It's time to make a test!");
             ActivateTest();
             fmsTestDone = true;
-        } else if (Math.Abs((Time.time - startTime) % fmsTestFrequency) >= 0.01f) {
+        }
+        else if (Math.Abs((Time.time - startTime) % fmsTestFrequency) >= 0.01f)
+        {
             fmsTestDone = false;
         }
     }
 
-    public void PositionCanvas() {
-        if (canvasTransform != null) {
-            float distanceFromCamera = 5.0f;
-
-            Vector3 newPosition = playerController.playerCamera.transform.position + playerController.playerCamera.transform.forward * distanceFromCamera;
+    public void PositionCanvas()
+    {
+        if (canvasTransform != null)
+        {
+            Vector3 newPosition = mainCamera.transform.position + mainCamera.transform.forward * distanceFromCamera;
+            newPosition.y = fixedHeightFromGround; // Fixer la hauteur du canvas
             canvasTransform.position = newPosition;
-            canvasTransform.rotation = Quaternion.LookRotation(canvasTransform.position - playerController.playerCamera.transform.position);
+            canvasTransform.rotation = Quaternion.LookRotation(canvasTransform.position - mainCamera.transform.position);
             canvasTransform.gameObject.SetActive(true);
         }
     }
 
-    void HandleSliderControl() {
-        if (slider != null) {
-            if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+    void HandleSliderControl()
+    {
+        if (slider != null)
+        {
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
                 slider.value -= 1;
             }
-            if (Input.GetKeyDown(KeyCode.RightArrow)) {
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
                 slider.value += 1;
             }
         }
     }
 
-    public void ActivateTest() {
+    public void ActivateTest()
+    {
         isTestActive = true;
         Cursor.visible = true;
         playerController.isTestActive = true;
@@ -81,7 +99,8 @@ public class TestManager : MonoBehaviour {
         fmsCount++;
     }
 
-    public void EndTest() {
+    public void EndTest()
+    {
         isTestActive = false;
         Cursor.visible = false;
         playerController.isTestActive = false;
@@ -90,15 +109,18 @@ public class TestManager : MonoBehaviour {
 
         Debug.Log("FMS Test Result: " + slider.value);
 
-        using (StreamWriter sw = File.AppendText(path)) {
+        using (StreamWriter sw = File.AppendText(path))
+        {
             sw.WriteLine("(Time: " + Time.time + ") FMS Test Number " + fmsCount + ": " + slider.value);
         }
     }
 
-    string CreateFile(string sceneName) {
+    string CreateFile(string sceneName)
+    {
         string path = "Assets/Scenes/Project/" + sceneName + ".txt";
 
-        if (File.Exists(path)) {
+        if (File.Exists(path))
+        {
             File.Delete(path);
             Debug.Log("Fichier supprimé : " + path);
         }
