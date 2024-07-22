@@ -3,176 +3,141 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class PlayerController : MonoBehaviour
-{
+public class PlayerController : MonoBehaviour {
     [Header("References")]
-    public GameObject player;
-    public Camera mainCamera;
-    public Animator headAnimator;
-    public Rigidbody rb; // Assure-toi de référencer le Rigidbody
+    public GameObject player; // Reference to the player GameObject
+    public Camera mainCamera; // Reference to the main camera
+    public Animator headAnimator; // Reference to the Animator component for the player's head
+    public Rigidbody rb; // Reference to the Rigidbody component
 
     [Header("Configuration")]
-    public float walkSpeed;
-    public float runSpeed;
-    private bool oscillations;
+    public float walkSpeed; // Speed at which the player walks
+    public float runSpeed; // Speed at which the player runs
+    private bool oscillations; // State to control head oscillations
 
     [Header("Runtime")]
-    Vector3 newVelocity;
-    private bool isWalking;
+    Vector3 newVelocity; // Stores the new velocity for the player
+    private bool isWalking; 
     private bool isRunning;
 
     [Header("FMS Test")]
-    public bool isTestActive = false;
+    public bool isTestActive = false; // Indicates if the test mode is active
 
-    private bool leftTriggerPressed = false;
-    private bool rightTriggerPressed = false;
-    private bool rightGripPressed = false;
+    private bool leftTriggerPressed = false; // Tracks the previous state of the left trigger button
+    private bool rightTriggerPressed = false; // Tracks the previous state of the right trigger button
+    private bool rightGripPressed = false; // Tracks the previous state of the right grip button
 
-    void Start()
-    {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+    void Start() { // Initialization
+        Cursor.visible = false; // Hide the cursor
+        Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the center of the screen
         oscillations = false;
-
         isWalking = false;
         isRunning = false;
 
-        // Assurez-vous que la gravité n'affecte pas la direction horizontale
+        // Ensure gravity does not affect horizontal direction
         rb.useGravity = true;
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY;
     }
 
-    void Update()
-    {
-        if (!isTestActive)
-        {
-            HandleMovement();
+    void Update() {
+        if (!isTestActive) {
+            HandleMovement(); // Handle player movement
         }
 
-        updateOscillations();
+        updateOscillations(); // Update the oscillation state
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            EndGame();
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            EndGame(); // End the game when Escape is pressed
         }
     }
 
-    void HandleMovement()
-    {
-        testSpeed();
+    void HandleMovement() {
+        testSpeed(); // Check and set the speed based on input
     }
 
-    void FixedUpdate()
-    {
-        if (!isTestActive)
-        {
-            if (isRunning)
-            {
-                Move(runSpeed);
-                SetAnimatorBools(false, true);
+    void FixedUpdate() {
+        if (!isTestActive) {
+            if (isRunning) {
+                Move(runSpeed); // Move the player at running speed
+                SetAnimatorBools(false, true); // Update animator for running
+            } else if (isWalking) {
+                Move(walkSpeed); // Move the player at walking speed
+                SetAnimatorBools(true, false); // Update animator for walking
+            } else {
+                rb.velocity = Vector3.up * rb.velocity.y; // Maintain only the vertical velocity
+                SetAnimatorBools(false, false); // Update animator for idle
             }
-            else if (isWalking)
-            {
-                Move(walkSpeed);
-                SetAnimatorBools(true, false);
-            }
-            else
-            {
-                rb.velocity = Vector3.up * rb.velocity.y; // Gardez seulement la composante verticale de la vitesse
-                SetAnimatorBools(false, false);
-            }
-        }
-        else
-        {
+        } else {
             rb.velocity = Vector3.zero; // Stop all movement if the test is active
-            SetAnimatorBools(false, false);
+            SetAnimatorBools(false, false); // Update animator for idle
         }
     }
 
-    void Move(float speed)
-    {
-        Vector3 forward = mainCamera.transform.forward;
-        forward.y = 0; // Ignorer la composante verticale pour éviter de pencher
+    void Move(float speed) {
+        Vector3 forward = mainCamera.transform.forward; 
+        forward.y = 0; // Ignore vertical component to prevent tilting
         forward.Normalize();
         newVelocity = forward * speed;
-        rb.velocity = newVelocity + Vector3.up * rb.velocity.y; // Combinez avec la composante verticale existante
+        rb.velocity = newVelocity + Vector3.up * rb.velocity.y; // Combine with existing vertical velocity
     }
 
-    void testSpeed()
-    {
-        // Vérifier les triggers
-        bool leftTriggerCurrentState = CheckControllerButton(InputDeviceRole.LeftHanded, CommonUsages.triggerButton);
-        bool rightTriggerCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.triggerButton);
+    void testSpeed() {
+        bool leftTriggerCurrentState = CheckControllerButton(InputDeviceRole.LeftHanded, CommonUsages.triggerButton); // Check left trigger state
+        bool rightTriggerCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.triggerButton); // Check right trigger state
 
-        // Détecter les changements d'état pour les triggers
-        if (leftTriggerCurrentState && rightTriggerCurrentState)
-        {
-            isRunning = true;
+        if (leftTriggerCurrentState && rightTriggerCurrentState) {
+            isRunning = true; // Run if both triggers are pressed
             isWalking = false;
-        }
-        else if ((leftTriggerCurrentState && !rightTriggerCurrentState) || (!leftTriggerCurrentState && rightTriggerCurrentState))
-        {
+        } else if (leftTriggerCurrentState || rightTriggerCurrentState) {
             isRunning = false;
-            isWalking = true;
-        }
-        else if (!leftTriggerCurrentState && !rightTriggerCurrentState)
-        {
+            isWalking = true; // Walk if one trigger is pressed
+        } else {
             isRunning = false;
-            isWalking = false;
+            isWalking = false; // Idle if no trigger is pressed
         }
 
-        // Mettre à jour les états des triggers
-        leftTriggerPressed = leftTriggerCurrentState;
-        rightTriggerPressed = rightTriggerCurrentState;
+        leftTriggerPressed = leftTriggerCurrentState; // Update left trigger state
+        rightTriggerPressed = rightTriggerCurrentState; // Update right trigger state
     }
 
-    void updateOscillations()
-    {
-        bool rightGripCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.gripButton);
+    void updateOscillations() {
+        bool rightGripCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.gripButton); // Check right grip state
 
-        if (rightGripCurrentState && !rightGripPressed)
-        {
-            oscillations = !oscillations;
-            Debug.Log("oscillations " + (oscillations ? "enabled" : "disabled"));
+        if (rightGripCurrentState && !rightGripPressed) {
+            oscillations = !oscillations; // Toggle oscillations on grip press
+            Debug.Log("oscillations " + (oscillations ? "enabled" : "disabled")); // Log the state of oscillations
         }
 
-        rightGripPressed = rightGripCurrentState;
+        rightGripPressed = rightGripCurrentState; // Update right grip state
     }
 
-    void SetAnimatorBools(bool isWalking, bool isRunning)
-    {
-        if (oscillations)
-        {
-            headAnimator.SetBool("isWalking", isWalking);
-            headAnimator.SetBool("isRunning", isRunning);
-        } else
-        {
-            headAnimator.SetBool("isWalking", false);
-            headAnimator.SetBool("isRunning", false);
+    void SetAnimatorBools(bool isWalking, bool isRunning) {
+        if (oscillations) {
+            headAnimator.SetBool("isWalking", isWalking); // Set walking animation
+            headAnimator.SetBool("isRunning", isRunning); // Set running animation
+        } else {
+            headAnimator.SetBool("isWalking", false); // Disable walking animation
+            headAnimator.SetBool("isRunning", false); // Disable running animation
         }
     }
 
-    bool CheckControllerButton(InputDeviceRole role, InputFeatureUsage<bool> button)
-    {
+    bool CheckControllerButton(InputDeviceRole role, InputFeatureUsage<bool> button) {
         List<InputDevice> devices = new List<InputDevice>();
         InputDevices.GetDevicesWithRole(role, devices);
 
-        foreach (var device in devices)
-        {
-            if (device.TryGetFeatureValue(button, out bool pressed) && pressed)
-            {
-                return true;
+        foreach (var device in devices) {
+            if (device.TryGetFeatureValue(button, out bool pressed) && pressed) {
+                return true; // Return true if button is pressed
             }
         }
-        return false;
+        return false; // Return false if button is not pressed
     }
 
-    public void EndGame()
-    {
+    public void EndGame() {
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false; // Stop play mode in editor
 #else
-        Application.Quit();
+        Application.Quit(); // Quit application
 #endif
     }
 }

@@ -17,6 +17,7 @@
 \input{colors}
 \usepackage[unicode=true, breaklinks=true, colorlinks=true]{hyperref}
 \usepackage{enumitem}
+\usepackage{float}
 \hypersetup{%
 citecolor=dkblue,
 urlcolor=dkorange,
@@ -43,7 +44,7 @@ etienne.vatry@stud-mail.uni-wuerzburg.de
 \end{bottomstuff}
 
 \begin{abstract}
-ABSRACT Cybersickness is an obstacle to the development of virtual reality applications in any field. If the user experience is negative as a result of discomfort, this will not encourage the various industries to develop this branch. This can even have critical effects, for example in medical applications. Through this project, we aim to set up a system that will enable us to measure the impact, positive or otherwise, of simulating head oscillations during user movements. More specifically, we'll be focusing on oscillations during walking or running. For this purpose, three virtual environments have been set up, with three different types of terrain. Tests can be carried out regularly to measure the user's discomfort in real time.
+ABSRACT Cybersickness is an obstacle to the development of virtual reality applications in any field. If the user experience is negative due to discomfort, it will hinder the adoption and advancement of virtual reality technologies. This can even have critical effects, for example in medical applications. Through this project, we aim to set up a system that will enable us to measure the impact, positive or otherwise, of simulating head oscillations during user movements. More specifically, we will be focusing on oscillations during walking or running. For this purpose, three virtual environments have been set up, with three different types of terrain. Tests can be carried out regularly to measure the user's discomfort in real time.
 \end{abstract}
 
 
@@ -55,7 +56,21 @@ The aim of this project was to create three virtual environments for virtual rea
     \item Terrain with regular bumps,
     \item Terrain with noise-generated bumps.
 \end{itemize}
-At present, these lots are empty: they have no vegetation. (INSERT TERRAIN IMAGE SEEN FROM ABOVE AND FROM THE MOUNTAINS) However, they have all been designed on the same basis - a large, flat surface surrounded by mountains. The choice to have three different terrains was motivated by a study showing that the more irregular the terrain, the greater the visual discomfort [\cite{bumpy_ride}]. It may therefore be interesting to observe how this discomfort evolves with the addition of head oscillations. During a simulation, Fast Motion Sickness scales can be used at regular intervals to monitor the user's condition in real time. Step sounds have also been added. These sounds have also been shown to reduce cybersickness [\cite{audio_in_vr},\cite{walking_vibe}]. Finally, the user's head oscillations during movement can be activated or deactivated, allowing the difference in user experience to be highlighted.
+At present, these lots are empty: they have no vegetation.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/terrain.png}}
+\caption{Terrain from above.}
+    \label{fig:terrain}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/montains.png}}
+\caption{Montains surrounding the terrain.}
+    \label{fig:mountains}
+\end{figure}
+
+However, they have all been designed on the same basis - a large, flat surface surrounded by mountains. The choice to have three different terrains was motivated by a study showing that the more irregular the terrain, the greater the visual discomfort [\cite{bumpy_ride}]. It may therefore be interesting to observe how this discomfort evolves with the addition of head oscillations. During a simulation, Fast Motion Sickness scales can be used at regular intervals to monitor the user's condition in real time. Step sounds have also been added. These sounds have also been shown to reduce cybersickness [\cite{audio_in_vr},\cite{walking_vibe}]. Finally, the user's head oscillations during movement can be activated or deactivated, allowing the difference in user experience to be highlighted.
 
 \section{Design and Development}
 \label{sec:design}
@@ -74,9 +89,9 @@ The first part of this project focused on two main points:
     \item Getting to grips with Unity Engine,
     \item Various research studies.
 \end{itemize}
-These steps gave me an initial idea of what needed to be done during the project. At the end of these two stages, a first provisional schedule was created (\ref{fig:planning}). Its aim was to be as realistic as possible to ensure steady progress in the project. In addition, bi-monthly meetings were organized to avoid the tunnel effect and understand how to improve the project.
+These steps gave me an initial idea of what needed to be done during the project. At the end of these two stages, a first provisional schedule was created (see Figure \ref{fig:planning}). Its aim was to be as realistic as possible to ensure steady progress in the project. In addition, bi-monthly meetings were organized to avoid the tunnel effect and understand how to improve the project.
 
-\begin{figure}
+\begin{figure}[H]
 \centerline{\includegraphics[width=\columnwidth]{figures/Planning.png}}
 \caption{Initial project schedule.}
     \label{fig:planning}
@@ -100,43 +115,116 @@ As described in the introduction (\ref{sec:introduction}), the terrain was creat
 This terrain serves as the basis for the design of the other two. Apart from the mountains surrounding the surface where the user can evolve, there is no relief.
 
 \subsubsection{Terrain with Regular Bumps}
-For this terrain, regular linear bumps have been added at regular intervals. Their height and spacing can be modified to test different types of bump (INSERT CODE TO GENERATE Bumps).
+For this terrain, regular linear bumps have been added at regular intervals. Their height and spacing can be modified to test different types of bump.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/regular_bumps_code.png}}
+\caption{Regular bumps code.}
+    \label{fig:regular_bumps_code}
+\end{figure}
 
 \subsubsection{Terrain with Noise-Generated Bumps}
-These bumps are generated from Perlin noise. Their purpose is to reproduce "natural" bumps. The height of the bumps and the intensity of the noise can also be modified. (INSERT THE CODE USED TO GENERATE THEM)
+These bumps are generated from Perlin noise. Their purpose is to reproduce "natural" bumps. The height of the bumps and the intensity of the noise can also be modified.
 
-(INSERT IMAGES OF THE THREE TYPES OF TERRAIN)
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/irregular_bumps_code.png}}
+\caption{Irregular bumps code.}
+    \label{fig:irregular_bumps_code}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/flat_terrain.png}}
+\caption{Flat terrain.}
+    \label{fig:flat_terrain}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/bumpy_terrain.png}}
+\caption{Bumpy terrain.}
+    \label{fig:bumpy_terrain}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/regular_terrain.png}}
+\caption{Terrain with regular bumps.}
+    \label{fig:regular_terrain}
+\end{figure}
 
 \subsection{Head Oscillation Simulation}
 \subsubsection{Research on Head Oscillations}
 Initially, the data used for head movements were taken from the [\cite{translational_motion}] research paper. These data were obtained during outdoor shots, not in a virtual environment. We quickly realized that the movements obtained did not render well in the virtual environment. We therefore chose another research paper, [\cite{trigger_walking}], as the basis for our head oscillations. In this paper, data were taken while the subject was in the virtual environment.
 
 \subsubsection{Implementation}
-To implement the head movements, we used Unity Engine's "Animator" module. With the help of curves, we were able to fine-tune head oscillations during the simulation. Two types of animation were implemented: one for walking and one for running. Switching from one to the other is done using Boolean variables, managed in the code and updated as the user moves.
+To implement the head movements, we used Unity Engine's "Animator" module. With the help of curves, we were able to fine-tune head oscillations during the simulation. Two types of animation were implemented: one for walking and one for running. Switching from one to the other is done using Boolean variables, managed in the code and updated as the user moves. Figures \ref{fig:run_curves} and \ref{fig:walk_curves} show head movements in all three spatial directions. Figure \ref{fig:animator} shows the relationships between states and the variables that allow you to move from one state to another.
 
-(INSERT IMAGE OF THE COURBES AND ANIMATORS)
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/run_curves.png}}
+\caption{Curves for the running animation.}
+    \label{fig:run_curves}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/walk_curves.png}}
+\caption{Curves for the walking animation.}
+    \label{fig:walk_curves}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/animator.png}}
+\caption{Links between the different states.}
+    \label{fig:animator}
+\end{figure}
 
 \subsection{Additional Features}
 \subsubsection{Step Sounds}
-In the [\cite{walking_vibe}] research paper, it was shown that the presence of footsteps when the user is moving contributes to the reduction of cybersickness. That's why we added this feature, with the option of activating it or not during the simulation. To do this, we searched for an extract of the sound of footsteps on grass in WAV format. We then modified it to the desired duration and applied it to certain events in our animation using a function in our script. Synchronization with head movements was easily achieved using the "Animator" tool.
+In the [\cite{walking_vibe}] research paper, it was shown that the presence of footsteps when the user is moving contributes to the reduction of cybersickness. That is why we added this feature, with the option of activating it or not during the simulation. To do this, we searched for an extract of the sound of footsteps on grass in WAV format. We then modified it to the desired duration and applied it to certain events in our animation using a function in our script. Synchronization with head movements was easily achieved using the "Animator" tool.
 
 \subsubsection{Real-Time Monitoring}
-To monitor changes in the user's condition in real time, we chose to use Fast Motion Sickness scales [\cite{course}]. There are 7 comfort levels, ranging from 0 (very uncomfortable) to 6 (very comfortable). These appear at given intervals, adjustable from the script. To retrieve test data, a file bearing the scene name is created, and each test result is written to it. Visually, these tests are created from a canvas, a slider and various labels. These are hidden at the start of the simulation and only appear during the tests. They are placed in a fixed position in the background and appear in front of the user while his or her movements are deactivated.
+To monitor changes in the user's condition in real time, we chose to use Fast Motion Sickness scales [\cite{course}]. There are 7 comfort levels, ranging from 0 (very uncomfortable) to 6 (very comfortable). These appear at given intervals, adjustable from the script. To retrieve test data, a file bearing the scene name is created, and each test result is written to it. These are hidden at the start of the simulation and only appear during the tests. They are placed in a fixed position in the background and appear in front of the user while his or her movements are deactivated.
 
-(INSERT IMAGE TEST + RESULTS)
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/test.png}}
+\caption{FMS test.}
+    \label{fig:test}
+\end{figure}
 
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/tests_result.png}}
+\caption{One line of a text file containing test results.}
+    \label{fig:tests_result}
+\end{figure}
 
 \section{Final Product Description}
 \label{sec:product}
+\subsection{Application overview}
 The final simulation therefore has the following elements:
 \begin{itemize}[label=\textbullet]
     \item Three different virtual environments,
     \item The ability to activate head oscillations,
-    \item The ability to activate footsteps,
+    \item The ability to activate footsteps sounds,
     \item Visual comfort tests launched at regular intervals,
     \item The results of these tests are retrieved in a text file for analysis.
 \end{itemize}
 In addition, the duration of the simulation can also be set from within the script.
+
+\subsection{User controls}
+The controls are as follows:
+\begin{itemize}[label=\textbullet]
+    \item Walk: right OR left trigger button
+    \item Run: right AND left trigger button
+    \item Increase slider value during test: right trigger button
+    \item Decrease slider value during test: left trigger button
+    \item Validate test: A button
+    \item Activate/deactivate oscillations: right grip button
+    \item Activate/deactivate footstep sound during oscillations: left grip button (note: footstep sound can only be heard when oscillations are activated)
+\end{itemize}
+See figure \ref{fig:quest_controls} for controls.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=\columnwidth]{figures/quest_controls.png}}
+\caption{Quest touch controllers.}
+    \label{fig:quest_controls}
+\end{figure}
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -144,9 +232,9 @@ The aim of this project was to create a versatile simulation to measure the impa
 
 Key features such as the ability to activate or deactivate head oscillations, the integration of footsteps and real-time monitoring of user discomfort using Fast Motion Sickness scales have been implemented. These features will provide a detailed understanding of how to enhance the virtual reality user experience.
 
-The ability to capture and analyze user comfort data in real time provides valuable information that can be used to refine and improve VR applications in a variety of fields, including medical, gaming and training simulations. The modular design of the simulation allows it to be adapted and extended for future research and development. I look forward to learning about these and following the various studies that may result.
+The ability to capture and analyze user comfort data in real time provides valuable information that can be used to refine and improve virtual reality applications in a variety of fields, including medical, gaming and training simulations. The modular design of the simulation allows it to be adapted and extended for future research and development. I look forward to learning about these and following the various studies that may result.
 
-In conclusion, this project has not only enabled me to develop a good tool for research in virtual reality, but it has also enabled me to learn many new concepts. Whether it's handling the Unity Engine or understanding the principles of virtual reality, this new knowledge will certainly benefit me.
+In conclusion, this project has not only enabled me to develop a good tool for research in virtual reality, but it has also enabled me to learn many new concepts. Whether it is handling the Unity Engine or understanding the principles of virtual reality, this new knowledge will certainly benefit me.
 
 \begin{acks}
 I would like to express my sincere gratitude to Dr. Jean-Luc Lugrin, my supervisor, for his invaluable help, advice and support throughout this project. His expertise was crucial to the success of this work. Thank you for your continuous guidance and encouragement.

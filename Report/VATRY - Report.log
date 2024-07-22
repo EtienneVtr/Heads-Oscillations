@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.18)  20 JUL 2024 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.18)  23 JUL 2024 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,12 +611,20 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count431
 \enitdp@description=\count432
 )
+(C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count433
+\float@exts=\toks24
+\float@box=\box63
+\@float@everytoks=\toks25
+\@floatcapt=\box64
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-6.
+7.
 
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -624,39 +632,39 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (VATRY - Report.aux)
 \openout1 = `"VATRY - Report.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count433
+\scratchcounter=\count434
 \scratchdimen=\dimen162
-\scratchbox=\box63
-\nofMPsegments=\count434
-\nofMParguments=\count435
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count436
+\scratchbox=\box65
+\nofMPsegments=\count435
+\nofMParguments=\count436
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count437
 \MPscratchDim=\dimen163
-\MPnumerator=\count437
-\makeMPintoPDFobject=\count438
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count438
+\makeMPintoPDFobject=\count439
+\everyMPtoPDFconversion=\toks27
 )
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -732,60 +740,71 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"VATRY - Report".bbl' found.
  (VATRY - Report.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
-Package hyperref Info: Link coloring ON on input line 36.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
+Package hyperref Info: Link coloring ON on input line 37.
  (VATRY - Report.out) (VATRY - Report.out)
 \@outlinefile=\write4
 \openout4 = `"VATRY - Report.out"'.
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-0.
+1.
 
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<figures/hci-header-engl.pdf, id=83, 515.9275pt x 49.18375pt>
+<figures/hci-header-engl.pdf, id=91, 515.9275pt x 49.18375pt>
 File: figures/hci-header-engl.pdf Graphic file (type pdf)
 <use figures/hci-header-engl.pdf>
-Package pdftex.def Info: figures/hci-header-engl.pdf  used on input line 40.
+Package pdftex.def Info: figures/hci-header-engl.pdf  used on input line 41.
 (pdftex.def)             Requested size: 504.0pt x 48.04813pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 40.
+(Font)              <17.28> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 40
+(Font)              <12> on input line 41.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 41
 .
 
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 40.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 41.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-4.
+5.
 
 (C:\Users\etien\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+<figures/terrain.png, id=92, 587.19376pt x 584.93532pt>
+File: figures/terrain.png Graphic file (type png)
+<use figures/terrain.png>
+Package pdftex.def Info: figures/terrain.png  used on input line 62.
+(pdftex.def)             Requested size: 240.0pt x 239.0753pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 63.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 63.
+<figures/montains.png, id=94, 858.95906pt x 421.575pt>
+File: figures/montains.png Graphic file (type png)
+<use figures/montains.png>
+Package pdftex.def Info: figures/montains.png  used on input line 68.
+(pdftex.def)             Requested size: 240.0pt x 117.7893pt.
 
-<figures/Planning.png, id=88, 509.65407pt x 190.46156pt>
+
+<figures/Planning.png, id=99, 509.65407pt x 190.46156pt>
 File: figures/Planning.png Graphic file (type png)
 <use figures/Planning.png>
-Package pdftex.def Info: figures/Planning.png  used on input line 80.
+Package pdftex.def Info: figures/Planning.png  used on input line 95.
 (pdftex.def)             Requested size: 240.0pt x 89.6913pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 81.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 81.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 81.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 81.
 
 
 [1{C:/Users/etien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/et
@@ -793,46 +812,221 @@ ien/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 Non-PDF special ignored!
 <special> papersize=8.5in,11in
 
- <./figures/hci-header-engl.pdf> <./figures/Planning.png>]
 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.98 \end{figure}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.98 \end{figure}
+                  <./figures/hci-header-engl.pdf> <./figures/terrain.png> <./fi
+gures/montains.png>]
+<figures/regular_bumps_code.png, id=149, 614.295pt x 601.4972pt>
+File: figures/regular_bumps_code.png Graphic file (type png)
+<use figures/regular_bumps_code.png>
+Package pdftex.def Info: figures/regular_bumps_code.png  used on input line 121
+.
+(pdftex.def)             Requested size: 240.0pt x 234.99597pt.
+
+Underfull \vbox (badness 4621) has occurred while \output is active []
+
+
+
+<figures/irregular_bumps_code.png, id=150, 651.18282pt x 300.3722pt>
+File: figures/irregular_bumps_code.png Graphic file (type png)
+<use figures/irregular_bumps_code.png>
+Package pdftex.def Info: figures/irregular_bumps_code.png  used on input line 1
+30.
+(pdftex.def)             Requested size: 240.0pt x 110.70512pt.
+<figures/flat_terrain.png, id=151, 1000.48781pt x 678.28406pt>
+File: figures/flat_terrain.png Graphic file (type png)
+<use figures/flat_terrain.png>
+Package pdftex.def Info: figures/flat_terrain.png  used on input line 136.
+(pdftex.def)             Requested size: 240.0pt x 162.7087pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.140 
+       [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.140 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.140 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.140 
+       <./figures/Planning.png> <./figures/regular_bumps_code.png> <./figures/i
+rregular_bumps_code.png>]
+<figures/bumpy_terrain.png, id=160, 999.735pt x 680.5425pt>
+File: figures/bumpy_terrain.png Graphic file (type png)
+<use figures/bumpy_terrain.png>
+Package pdftex.def Info: figures/bumpy_terrain.png  used on input line 142.
+(pdftex.def)             Requested size: 240.0pt x 163.37506pt.
+<figures/regular_terrain.png, id=161, 1000.48781pt x 679.78969pt>
+File: figures/regular_terrain.png Graphic file (type png)
+<use figures/regular_terrain.png>
+Package pdftex.def Info: figures/regular_terrain.png  used on input line 148.
+(pdftex.def)             Requested size: 240.0pt x 163.06987pt.
+
+
+<figures/run_curves.png, id=167, 1117.92656pt x 380.17032pt>
+File: figures/run_curves.png Graphic file (type png)
+<use figures/run_curves.png>
+Package pdftex.def Info: figures/run_curves.png  used on input line 161.
+(pdftex.def)             Requested size: 240.0pt x 81.6132pt.
+<figures/walk_curves.png, id=168, 1115.66812pt x 382.42876pt>
+File: figures/walk_curves.png Graphic file (type png)
+<use figures/walk_curves.png>
+Package pdftex.def Info: figures/walk_curves.png  used on input line 167.
+(pdftex.def)             Requested size: 240.0pt x 82.26726pt.
+<figures/animator.png, id=169, 734.745pt x 268.00125pt>
+File: figures/animator.png Graphic file (type png)
+<use figures/animator.png>
+Package pdftex.def Info: figures/animator.png  used on input line 173.
+(pdftex.def)             Requested size: 240.0pt x 87.54102pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 
+       [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.181 
+       <./figures/flat_terrain.png> <./figures/bumpy_terrain.png> <./figures/re
+gular_terrain.png> <./figures/run_curves.png> <./figures/walk_curves.png> <./fi
+gures/animator.png>]
+<figures/test.png, id=189, 570.63188pt x 219.06844pt>
+File: figures/test.png Graphic file (type png)
+<use figures/test.png>
+Package pdftex.def Info: figures/test.png  used on input line 186.
+(pdftex.def)             Requested size: 240.0pt x 92.13513pt.
+<figures/tests_result.png, id=190, 254.45062pt x 15.05624pt>
+File: figures/tests_result.png Graphic file (type png)
+<use figures/tests_result.png>
+Package pdftex.def Info: figures/tests_result.png  used on input line 192.
+(pdftex.def)             Requested size: 240.0pt x 14.20178pt.
+
+
+<figures/quest_controls.png, id=192, 1445.4pt x 813.0375pt>
+File: figures/quest_controls.png Graphic file (type png)
+<use figures/quest_controls.png>
+Package pdftex.def Info: figures/quest_controls.png  used on input line 224.
+(pdftex.def)             Requested size: 240.0pt x 134.989pt.
 (VATRY - Report.lof
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 2.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 2.
-)
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 ...espaces Irregular bumps code.}}{}{figure.5}
+                                                  % [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 ...espaces Irregular bumps code.}}{}{figure.5}
+                                                  %
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 ...espaces Irregular bumps code.}}{}{figure.5}
+                                                  %
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 ...espaces Irregular bumps code.}}{}{figure.5}
+                                                  % <./figures/test.png> <./fig
+ures/tests_result.png> <./figures/quest_controls.png>])
 \tf@lof=\write5
 \openout5 = `"VATRY - Report.lof"'.
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 158--158
+Underfull \hbox (badness 1097) in paragraph at lines 246--246
 [][]\OT1/ptm/m/n/9 SARUPURI, B., STEINICKE, F., HO-ER-MANN, S., & LIN-
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 158--158
+Underfull \hbox (badness 4846) in paragraph at lines 246--246
 \OT1/ptm/m/n/9 DE-MAN, R. W.  (2017).  Trig-ger-walk-ing: A
  []
 
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.158 
-       [2]
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 \end{document}
-                     [3
+l.247 \end{document}
+                     [5
 
 ] (VATRY - Report.aux)
  ***********
@@ -840,27 +1034,27 @@ LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-08>
  ***********
 Package rerunfilecheck Info: File `"VATRY - Report".out' has not changed.
-(rerunfilecheck)             Checksum: AA6C72D9DBDAB51EEE8AE120E9E6457C;3161.
+(rerunfilecheck)             Checksum: 7506F4071843F59E6A61FEA43AAA6BED;3448.
 Package logreq Info: Writing requests to '"VATRY - Report".run.xml'.
 \openout1 = `"VATRY - Report.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19843 strings out of 473938
- 353915 string characters out of 5727391
- 1953893 words of memory out of 5000000
- 42395 multiletter control sequences out of 15000+600000
+ 20034 strings out of 473938
+ 358205 string characters out of 5727391
+ 1946893 words of memory out of 5000000
+ 42567 multiletter control sequences out of 15000+600000
  586915 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,6n,95p,997b,5169s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,6n,95p,876b,5169s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a
 .pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 ro8a.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mr8a.pfb><C:/Users/etien/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on "VATRY - Report.pdf" (3 pages, 1677940 bytes).
+Output written on "VATRY - Report.pdf" (5 pages, 7259721 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
