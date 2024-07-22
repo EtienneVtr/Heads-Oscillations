@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     private bool leftTriggerPressed = false;
     private bool rightTriggerPressed = false;
+    private bool rightGripPressed = false;
 
     void Start()
     {
@@ -48,6 +49,8 @@ public class PlayerController : MonoBehaviour
             HandleMovement();
         }
 
+        updateOscillations();
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             EndGame();
@@ -57,7 +60,6 @@ public class PlayerController : MonoBehaviour
     void HandleMovement()
     {
         testSpeed();
-        updateOscillations();
     }
 
     void FixedUpdate()
@@ -126,11 +128,15 @@ public class PlayerController : MonoBehaviour
 
     void updateOscillations()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        bool rightGripCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.gripButton);
+
+        if (rightGripCurrentState && !rightGripPressed)
         {
             oscillations = !oscillations;
             Debug.Log("oscillations " + (oscillations ? "enabled" : "disabled"));
         }
+
+        rightGripPressed = rightGripCurrentState;
     }
 
     void SetAnimatorBools(bool isWalking, bool isRunning)

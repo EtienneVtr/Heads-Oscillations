@@ -1,8 +1,10 @@
 using System;
 using System.IO;
+using System.Collections.Generic; // Ajout de cette ligne pour List<>
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR;
 
 public class TestManager : MonoBehaviour
 {
@@ -21,6 +23,10 @@ public class TestManager : MonoBehaviour
     private string path;
     public float distanceFromCamera;
     public float fixedHeightFromGround; // Hauteur fixe à laquelle le canvas doit être placé
+
+    // Triggers state
+    private bool leftTriggerPressed = false;
+    private bool rightTriggerPressed = false;
 
     // Start est appelé avant le premier frame update
     void Start()
@@ -41,7 +47,8 @@ public class TestManager : MonoBehaviour
         {
             HandleSliderControl();
 
-            if (Input.GetKeyDown(KeyCode.Return))
+            // Validation lorsque la touche A est enfoncée
+            if (Input.GetKeyDown(KeyCode.JoystickButton0)) // Touche A du contrôleur
             {
                 EndTest();
             }
@@ -76,17 +83,25 @@ public class TestManager : MonoBehaviour
 
     void HandleSliderControl()
     {
+        bool leftTriggerCurrentState = CheckControllerButton(InputDeviceRole.LeftHanded, CommonUsages.triggerButton);
+        bool rightTriggerCurrentState = CheckControllerButton(InputDeviceRole.RightHanded, CommonUsages.triggerButton);
+
+        // Augmenter/diminuer la valeur du slider
         if (slider != null)
         {
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                slider.value -= 1;
-            }
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+            if (rightTriggerCurrentState && !rightTriggerPressed)
             {
                 slider.value += 1;
             }
+            if (leftTriggerCurrentState && !leftTriggerPressed)
+            {
+                slider.value -= 1;
+            }
         }
+
+        // Mettre à jour les états des triggers
+        leftTriggerPressed = leftTriggerCurrentState;
+        rightTriggerPressed = rightTriggerCurrentState;
     }
 
     public void ActivateTest()
@@ -127,5 +142,20 @@ public class TestManager : MonoBehaviour
 
         System.IO.File.Create(path).Dispose();
         return path;
+    }
+
+    bool CheckControllerButton(InputDeviceRole role, InputFeatureUsage<bool> button)
+    {
+        List<InputDevice> devices = new List<InputDevice>();
+        InputDevices.GetDevicesWithRole(role, devices);
+
+        foreach (var device in devices)
+        {
+            if (device.TryGetFeatureValue(button, out bool pressed) && pressed)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
