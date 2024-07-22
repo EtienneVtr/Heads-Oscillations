@@ -54,14 +54,38 @@ public class TerrainGenerator : MonoBehaviour
 
         for (int x = 0; x < width; x++) {
             for (int y = 0; y < height; y += (int)bumpSpacing) {
-                // Calculate the height using a sine function to create a half-cylinder shape
+                // Calculer la hauteur en utilisant une fonction sinusoïdale pour créer une forme de demi-cylindre
                 float heightValue = Mathf.Sin((float)x / width * Mathf.PI) * bumpHeight / terrainData.size.y;
                 heights[x, y] += heightValue;
             }
         }
 
+        // Lissage des hauteurs
+        SmoothHeights(heights, width, height);
+
         terrainData.SetHeights(0, 0, heights);
     }
+
+    void SmoothHeights(float[,] heights, int width, int height) {
+        int smoothRadius = 1; // Rayon de lissage
+
+        for (int x = smoothRadius; x < width - smoothRadius; x++) {
+            for (int y = smoothRadius; y < height - smoothRadius; y++) {
+                float totalHeight = 0;
+                int count = 0;
+
+                for (int i = -smoothRadius; i <= smoothRadius; i++) {
+                    for (int j = -smoothRadius; j <= smoothRadius; j++) {
+                        totalHeight += heights[x + i, y + j];
+                        count++;
+                    }
+                }
+
+                heights[x, y] = totalHeight / count;
+            }
+        }
+    }
+
 
     void GenerateIrregularBumps() {
         TerrainData terrainData = terrain.terrainData;
@@ -74,7 +98,10 @@ public class TerrainGenerator : MonoBehaviour
             for (int y = 0; y < height; y++) {
                 float xCoord = (float)x / width * noiseScale;
                 float yCoord = (float)y / height * noiseScale;
-                heights[x, y] += Mathf.PerlinNoise(xCoord, yCoord) * noiseHeightMultiplier / terrainData.size.y;
+                float noiseValue = Mathf.PerlinNoise(xCoord, yCoord) * noiseHeightMultiplier / terrainData.size.y;
+
+                // Limiter les variations de hauteur
+                heights[x, y] += Mathf.Clamp(noiseValue, 0, 0.05f); // Ajuster la plage de clamping selon les besoins
             }
         }
 

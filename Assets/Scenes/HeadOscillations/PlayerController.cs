@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
         // Assurez-vous que la gravité n'affecte pas la direction horizontale
         rb.useGravity = true;
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY;
     }
 
     void Update()
