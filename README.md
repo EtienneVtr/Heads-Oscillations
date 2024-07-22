@@ -6,8 +6,6 @@
 ## Supervisor
 [Dr. Jean-Luc Lugrin](jean-luc.lugrin@uni-wuerzburg.de)
 
-# Head's Oscillations Simulation - Project Report
-
 ## Project Overview
 
 This project aims to create a simulation to measure the impact of head oscillations on user comfort in virtual reality environments. The simulation includes three distinct virtual environments with varying terrain types and features that allow for comprehensive testing and analysis.
