@@ -115,7 +115,8 @@ public class TestManager : MonoBehaviour {
     }
 
     string CreateFile(string sceneName) {
-        string path = "Assets/Scenes/Project/" + sceneName + ".txt";
+        // Use persistentDataPath for appropriate file access
+        string path = Path.Combine(Application.persistentDataPath, sceneName + ".txt");
 
         // Delete the file if it already exists
         if (File.Exists(path)) {
@@ -123,9 +124,14 @@ public class TestManager : MonoBehaviour {
             Debug.Log("File deleted: " + path);
         }
 
-        System.IO.File.Create(path).Dispose(); // Create a new file
+        // Create a new file
+        using (FileStream fs = File.Create(path)) {
+            // Immediately close the stream to not keep it open
+        }
+
         return path;
     }
+
 
     bool CheckControllerButton(InputDeviceRole role, InputFeatureUsage<bool> button) {
         List<InputDevice> devices = new List<InputDevice>();
