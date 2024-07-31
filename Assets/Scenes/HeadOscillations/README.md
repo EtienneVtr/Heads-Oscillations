@@ -30,10 +30,3 @@ The **HeadOscillations** project is a Unity-based application designed to simula
 
 3. Install any required packages through Unity Package Manager.
 
-## Usage
-
-1. Open the **Scenes** folder and load the `MainScene.unity` scene.
-2. Configure the simulation parameters in the inspector panel.
-3. Press the "Play" button in the Unity editor to start the simulation.
-4. Use the provided UI to visualize and analyze the head oscillation data.
-
