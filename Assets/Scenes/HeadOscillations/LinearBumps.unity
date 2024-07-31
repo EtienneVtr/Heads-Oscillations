@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14703594, g: 0.36398482, b: 0.57992315, a: 1}
+  m_IndirectSpecularColor: {r: 0.14686076, g: 0.36449513, b: 0.5798105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 876803598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d97b519360bf403468f55a7720824e2a, type: 3}
+  m_Script: {fileID: 11500000, guid: b2aa4e38da963d94682c24a444d478e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   footstepAudioSource: {fileID: 876803601}
@@ -1576,7 +1576,7 @@ Animator:
   m_GameObject: {fileID: 876803598}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ab59a490612b30441919b257f9e47de9, type: 2}
+  m_Controller: {fileID: 9100000, guid: a7ca32e63127b9241a86ab65f388c456, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2101,6 +2101,7 @@ GameObject:
   - component: {fileID: 1375700827}
   - component: {fileID: 1375700828}
   - component: {fileID: 1375700829}
+  - component: {fileID: 1375700832}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -2224,6 +2225,25 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 2066731586}
   m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.1176
+--- !u!114 &1375700832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375700825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a308e66bc00084b97a668f890a5907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1375700825}
+  mainCamera: {fileID: 933638174}
+  headAnimator: {fileID: 876803602}
+  rb: {fileID: 1375700828}
+  walkSpeed: 0
+  runSpeed: 0
+  isTestActive: 0
 --- !u!1 &1383955010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,15 +2510,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1641276636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 604dedc95dff1b044874ebce075fd37b, type: 3}
+  m_Script: {fileID: 11500000, guid: bf72621b3f189eb4ab2249696595940d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 1375700827}
+  playerController: {fileID: 1375700832}
   mainCamera: {fileID: 933638174}
   canvasTransform: {fileID: 1088818212}
   slider: {fileID: 507709202}
   fmsTestFrequency: 30
-  distanceFromCamera: 10
+  distanceFromCamera: 20
   fixedHeightFromGround: 2
 --- !u!4 &1641276638
 Transform:
@@ -3159,6 +3179,7 @@ GameObject:
   - component: {fileID: 2095151805}
   - component: {fileID: 2095151804}
   - component: {fileID: 2095151808}
+  - component: {fileID: 2095151809}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -3280,6 +3301,23 @@ MonoBehaviour:
   bumpSpacing: 5
   noiseScale: 0
   noiseHeightMultiplier: 0
+--- !u!114 &2095151809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095151803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa8cf2dd0594e846bf6ae5e57bcc813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 2095151806}
+  bumpHeight: 1
+  bumpSpacing: 10
+  noiseScale: 20
+  noiseHeightMultiplier: 1
 --- !u!1 &2098144038
 GameObject:
   m_ObjectHideFlags: 0
