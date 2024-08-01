@@ -1479,8 +1479,8 @@ AudioSource:
   m_GameObject: {fileID: 876803598}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fdeb84f28b829ab4ab8c4656481dad85, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: fc3263ad56ca9134b8d6e02f308cb480, type: 2}
+  m_audioClip: {fileID: 8300000, guid: fea8998f476d6264f90291815e989791, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1599,7 +1599,6 @@ GameObject:
   - component: {fileID: 933638174}
   - component: {fileID: 933638178}
   - component: {fileID: 933638177}
-  - component: {fileID: 933638176}
   - component: {fileID: 933638175}
   m_Layer: 0
   m_Name: Main Camera
@@ -1667,27 +1666,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933638173}
   m_Enabled: 1
---- !u!95 &933638176
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933638173}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 880478ad06692934892d864d1efbaed7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &933638177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2221,8 +2199,8 @@ MonoBehaviour:
   mainCamera: {fileID: 933638174}
   headAnimator: {fileID: 876803602}
   rb: {fileID: 1375700828}
-  walkSpeed: 0
-  runSpeed: 0
+  walkSpeed: 4
+  runSpeed: 9
   isTestActive: 0
 --- !u!1 &1383955010
 GameObject:
