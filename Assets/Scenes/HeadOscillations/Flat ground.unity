@@ -3373,7 +3373,6 @@ GameObject:
   - component: {fileID: 1767107698}
   - component: {fileID: 1767107697}
   - component: {fileID: 1767107700}
-  - component: {fileID: 1767107699}
   - component: {fileID: 1767107701}
   m_Layer: 0
   m_Name: Head
@@ -3419,19 +3418,6 @@ Transform:
   - {fileID: 1777769750}
   m_Father: {fileID: 1958107163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1767107699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767107696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d97b519360bf403468f55a7720824e2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footstepAudioSource: {fileID: 1767107700}
 --- !u!82 &1767107700
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3856,7 +3842,6 @@ GameObject:
   - component: {fileID: 1958107163}
   - component: {fileID: 1958107162}
   - component: {fileID: 1958107164}
-  - component: {fileID: 1958107166}
   - component: {fileID: 1958107165}
   - component: {fileID: 1958107167}
   - component: {fileID: 1958107168}
@@ -3941,25 +3926,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &1958107166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958107161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c45c83257b02044892931bd3f3a4a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1958107161}
-  mainCamera: {fileID: 505737985}
-  headAnimator: {fileID: 1767107697}
-  rb: {fileID: 1958107165}
-  walkSpeed: 4
-  runSpeed: 9
-  isTestActive: 0
 --- !u!136 &1958107167
 CapsuleCollider:
   m_ObjectHideFlags: 0

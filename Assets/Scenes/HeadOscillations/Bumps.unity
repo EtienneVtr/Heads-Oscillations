@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 63186849}
   - component: {fileID: 63186852}
   - component: {fileID: 63186851}
-  - component: {fileID: 63186850}
   - component: {fileID: 63186853}
   m_Layer: 0
   m_Name: Head
@@ -293,19 +292,6 @@ Transform:
   - {fileID: 207921688}
   m_Father: {fileID: 1875451284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &63186850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63186848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d97b519360bf403468f55a7720824e2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footstepAudioSource: {fileID: 63186851}
 --- !u!82 &63186851
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2781,7 +2767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa8cf2dd0594e846bf6ae5e57bcc813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  terrain: {fileID: 0}
+  terrain: {fileID: 978047054}
   bumpHeight: 1
   bumpSpacing: 10
   noiseScale: 20
@@ -3892,7 +3878,6 @@ GameObject:
   - component: {fileID: 1875451284}
   - component: {fileID: 1875451289}
   - component: {fileID: 1875451288}
-  - component: {fileID: 1875451285}
   - component: {fileID: 1875451286}
   - component: {fileID: 1875451287}
   - component: {fileID: 1875451290}
@@ -3919,25 +3904,6 @@ Transform:
   - {fileID: 63186849}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1875451285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875451283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c45c83257b02044892931bd3f3a4a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1875451283}
-  mainCamera: {fileID: 396300018}
-  headAnimator: {fileID: 63186852}
-  rb: {fileID: 1875451286}
-  walkSpeed: 4
-  runSpeed: 9
-  isTestActive: 0
 --- !u!54 &1875451286
 Rigidbody:
   m_ObjectHideFlags: 0
